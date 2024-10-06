@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+  
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+  
+.product-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+h1.product-name {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.separator {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.saps-logo {
+    width: 50px;
+    height: 50px;
+}
+
+h2.product-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #aaa;
+}
+
+.form-box {
+    padding: 20px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea {
+    padding: 15px;
+    background-color: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+select {
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+/* Guidelines Section */
+.guidelines {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.guidelines ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #aaa;
+}
+
+.guidelines ul li {
+    margin-bottom: 10px;
+}
+
+/* WhatsApp Contact Section */
+.whatsapp-contact {
+    margin-top: 20px;
+}
+
+.whatsapp-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #aaa;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+    h1.product-name {
+        font-size: 2rem;
+    }
+
+    h2.product-description {
+        font-size: 1rem;
+    }
+
+    .form-box h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    textarea {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    select,
+    input[type="text"] {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .saps-logo {
+        width: 40px;
+        height: 40px;
+    }
+}
